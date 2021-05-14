@@ -1,1 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T02:49:22.145Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" version="14.4.4" etag="2mudzz9GuhkfWWMQ7qUO" type="github"><diagram id="wwAp5VEjQbvz6LY0Q-2e">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-14T03:09:28.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="ilpeEoLDafgPID6Ty-jn" version="14.4.4" type="github">
+  <diagram id="wwAp5VEjQbvz6LY0Q-2e" name="第 1 页">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="acnv-wGAzHJlmWG9RIcy-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="50" y="40" width="972" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="acnv-wGAzHJlmWG9RIcy-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="acnv-wGAzHJlmWG9RIcy-20">
+          <mxGeometry width="30" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="acnv-wGAzHJlmWG9RIcy-2" value="生产管理" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="acnv-wGAzHJlmWG9RIcy-20">
+          <mxGeometry x="150" width="70" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="acnv-wGAzHJlmWG9RIcy-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="acnv-wGAzHJlmWG9RIcy-2">
+          <mxGeometry x="40" y="170" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="acnv-wGAzHJlmWG9RIcy-18" value="校验成功" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="acnv-wGAzHJlmWG9RIcy-17" parent="acnv-wGAzHJlmWG9RIcy-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="70" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="acnv-wGAzHJlmWG9RIcy-3" value="BIM云平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="acnv-wGAzHJlmWG9RIcy-20">
+          <mxGeometry x="376" width="70" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="acnv-wGAzHJlmWG9RIcy-4" value="桩桩" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="acnv-wGAzHJlmWG9RIcy-20">
+          <mxGeometry x="567" width="70" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="acnv-wGAzHJlmWG9RIcy-5" value="文件服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="acnv-wGAzHJlmWG9RIcy-20">
+          <mxGeometry x="727" width="70" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="acnv-wGAzHJlmWG9RIcy-6" value="轻量化服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="acnv-wGAzHJlmWG9RIcy-20">
+          <mxGeometry x="917" width="70" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="acnv-wGAzHJlmWG9RIcy-8" value="登录" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="acnv-wGAzHJlmWG9RIcy-20" source="acnv-wGAzHJlmWG9RIcy-1" target="acnv-wGAzHJlmWG9RIcy-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="20" y="90" as="sourcePoint" />
+            <mxPoint x="100" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="acnv-wGAzHJlmWG9RIcy-9" value="SSO登录结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="acnv-wGAzHJlmWG9RIcy-20" source="acnv-wGAzHJlmWG9RIcy-4">
+          <mxGeometry x="0.5321" relative="1" as="geometry">
+            <mxPoint x="550" y="117" as="sourcePoint" />
+            <mxPoint x="184.5" y="117" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="acnv-wGAzHJlmWG9RIcy-11" value="获取企业列表、项目列表、项目信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="acnv-wGAzHJlmWG9RIcy-20" source="acnv-wGAzHJlmWG9RIcy-4">
+          <mxGeometry x="0.446" relative="1" as="geometry">
+            <mxPoint x="554.5" y="230" as="sourcePoint" />
+            <mxPoint x="184.5" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

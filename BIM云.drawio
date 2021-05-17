@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T02:03:38.721Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="sK13wSv_BJg1QmI0UMlV" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-17T02:07:29.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="CXlvyD02yaGphwvpQmfl" version="14.6.13" type="github">
   <diagram id="wwAp5VEjQbvz6LY0Q-2e" name="第 1 页">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -176,8 +176,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tgn-vE3kJdSIfzjikdGL-19" value="1、下载轻量化文件并渲染&lt;br&gt;2、解析信息并缓存；" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;align=left;" edge="1" parent="acnv-wGAzHJlmWG9RIcy-20">
-          <mxGeometry x="0.9081" relative="1" as="geometry">
+        <mxCell id="tgn-vE3kJdSIfzjikdGL-19" value="1、下载轻量化文件、渲染、文件缓存&lt;br&gt;2、解析信息并缓存；" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;align=left;" edge="1" parent="acnv-wGAzHJlmWG9RIcy-20">
+          <mxGeometry x="0.9428" relative="1" as="geometry">
             <mxPoint x="800.5" y="960" as="sourcePoint" />
             <mxPoint x="223.5" y="960" as="targetPoint" />
             <mxPoint as="offset" />

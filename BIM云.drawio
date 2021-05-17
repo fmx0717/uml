@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T02:30:55.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="i8_Y4VJicGbzPUThhgbF" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-17T07:17:42.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="dg7XyrTa5j2-nPj65omp" version="14.6.13" type="github">
   <diagram id="wwAp5VEjQbvz6LY0Q-2e" name="第 1 页">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,6 +9,12 @@
         </mxCell>
         <mxCell id="acnv-wGAzHJlmWG9RIcy-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="acnv-wGAzHJlmWG9RIcy-20" vertex="1">
           <mxGeometry width="30" height="2130" as="geometry" />
+        </mxCell>
+        <mxCell id="tgn-vE3kJdSIfzjikdGL-38" value="进度关联" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="acnv-wGAzHJlmWG9RIcy-1" target="acnv-wGAzHJlmWG9RIcy-2">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="20" y="1380" as="sourcePoint" />
+            <mxPoint x="80" y="1380" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="acnv-wGAzHJlmWG9RIcy-2" value="生产管理" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="acnv-wGAzHJlmWG9RIcy-20" vertex="1">
           <mxGeometry x="189" width="70" height="2130" as="geometry" />
@@ -81,6 +87,17 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="258" y="670" as="sourcePoint" />
             <mxPoint x="31" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgn-vE3kJdSIfzjikdGL-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="acnv-wGAzHJlmWG9RIcy-2">
+          <mxGeometry x="30" y="1527" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tgn-vE3kJdSIfzjikdGL-41" value="1、解析工程量文件并缓存&lt;br&gt;2、解析模型的构件文件并缓存&lt;br&gt;3、筛选构件并筛选工程量&lt;br&gt;4、进度和工程量或构件关联" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="tgn-vE3kJdSIfzjikdGL-40" parent="acnv-wGAzHJlmWG9RIcy-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="35" y="1507" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="65" y="1507" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="acnv-wGAzHJlmWG9RIcy-3" value="BIM云平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="acnv-wGAzHJlmWG9RIcy-20" vertex="1">
@@ -218,6 +235,24 @@
           <mxGeometry x="0.0233" y="10" relative="1" as="geometry">
             <mxPoint x="240" y="1243" as="sourcePoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgn-vE3kJdSIfzjikdGL-39" value="下载轻量化文件（和模型一起下载也行）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="acnv-wGAzHJlmWG9RIcy-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="449.5" y="1404" as="sourcePoint" />
+            <mxPoint x="223.5" y="1404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgn-vE3kJdSIfzjikdGL-42" value="获取关联关系" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.457;exitY=0.681;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.443;entryY=0.681;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="acnv-wGAzHJlmWG9RIcy-20" source="acnv-wGAzHJlmWG9RIcy-3" target="acnv-wGAzHJlmWG9RIcy-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="1450" as="sourcePoint" />
+            <mxPoint x="230" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgn-vE3kJdSIfzjikdGL-43" value="提交关联关系" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.457;exitY=0.751;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="acnv-wGAzHJlmWG9RIcy-20" source="acnv-wGAzHJlmWG9RIcy-3" target="acnv-wGAzHJlmWG9RIcy-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="1600" as="sourcePoint" />
+            <mxPoint x="270" y="1600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

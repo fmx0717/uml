@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T02:18:34.381Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="xHe2j3DAfJHlu9PDNx37" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-17T02:20:38.356Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="m5_PaoQ10S8RT4k32o81" version="14.6.13" type="github">
   <diagram id="wwAp5VEjQbvz6LY0Q-2e" name="第 1 页">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -191,6 +191,12 @@
         </mxCell>
         <mxCell id="tgn-vE3kJdSIfzjikdGL-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="acnv-wGAzHJlmWG9RIcy-20">
           <mxGeometry x="219" y="880" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tgn-vE3kJdSIfzjikdGL-24" value="品茗BIM+文件管理的模型列表（云端）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="acnv-wGAzHJlmWG9RIcy-20" target="acnv-wGAzHJlmWG9RIcy-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="540" as="sourcePoint" />
+            <mxPoint x="370" y="540" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
